@@ -23,7 +23,10 @@
         font-family: $f-family2;
         color: $blue-dark;
         font-size: $f-title;        
-        border: $border1;
+        border-top: $border1;
+        border-right: none;
+        border-bottom: $border1;
+        border-left: none;
         text-transform: uppercase;
         align-items: center;        
     }  
@@ -115,7 +118,10 @@
     }
 
     .main__section4{
-        border: $border1;
+        border-top: $border1;
+        border-right: none;
+        border-bottom: $border1;
+        border-left: none;
         background-color: $grey;
         margin-bottom: $spacing-lg;
         padding-left: $spacing-lg ;
@@ -302,8 +308,12 @@
 
 /* Inicio seccion ubicacion */
 .main__container {    
-    border: $border1;    
+    border-top: $border1;
+    border-right: none;
+    border-bottom: $border1;
+    border-left: none;  
     background-color: $grey;
+    margin-bottom: $spacing-lg*2;
     
 }
 

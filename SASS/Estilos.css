@@ -195,7 +195,10 @@
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   color: #170080;
   font-size: 4.5vw;
-  border: 3px #170080 solid;
+  border-top: 3px #170080 solid;
+  border-right: none;
+  border-bottom: 3px #170080 solid;
+  border-left: none;
   text-transform: uppercase;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -321,7 +324,10 @@
 }
 
 .main .main__section4 {
-  border: 3px #170080 solid;
+  border-top: 3px #170080 solid;
+  border-right: none;
+  border-bottom: 3px #170080 solid;
+  border-left: none;
   background-color: #dddddd;
   margin-bottom: 2vw;
   padding-left: 2vw;
@@ -541,8 +547,12 @@
 }
 
 .main .main__container {
-  border: 3px #170080 solid;
+  border-top: 3px #170080 solid;
+  border-right: none;
+  border-bottom: 3px #170080 solid;
+  border-left: none;
   background-color: #dddddd;
+  margin-bottom: 4vw;
 }
 
 .main .item {
@@ -1186,4 +1196,21 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+/* Git:
+
+1ero: utilizo el comando Git init (Inicio git)
+2do: git add ( Subo al Stay Area)
+3ero: git commit (Para enviarlo al Local)
+4to: git push (A la plataforma de Github)
+
+--------
+Cuando realizo modificaciones: 
+
+1ero: git add (para añadir los archivos que modifique)
+2do: git status (para chequear que este correcto)
+3ro: git commit -m "lo que quiero comentar" (es para dar info de los cambios)
+4to: git push  y desp git push -u origin master (ahi subo a la plataforma) 
+
+*/
 /*# sourceMappingURL=Estilos.css.map */
