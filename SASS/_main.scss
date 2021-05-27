@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .main {        
@@ -757,4 +758,765 @@ input.formulario__itemContacto1 {
 
 
 
+=======
+
+
+.main {        
+    
+    font-family: $f-family3;
+    width: $full-width;   
+
+    .main__tituloPagina{
+        width: $full-width;  
+        height: $container-height;      
+        margin-bottom: 2*$spacing-lg;
+        margin-top: $spacing-lg;
+        
+    }
+
+    
+    .tituloPagina__title{
+        background-color: $grey;
+        display: flex;
+        width: auto;
+        justify-content: center;
+        height: $container-height;
+        font-family: $f-family2;
+        color: $blue-dark;
+        font-size: $f-title;        
+        border: $border1;
+        text-transform: uppercase;
+        align-items: center;        
+    }  
+
+    .row{
+        margin: 0;
+        padding-bottom: $spacing-lg ;
+    }
+
+    
+       
+    .col-sm-7{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
+
+    .main .col-sm-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: stretch;
+        padding-top: 3em;
+    
+
+        
+    }
+
+    
+    .main__informacion{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;      
+        padding-top: $spacing-lg*4;     
+        padding-bottom: $spacing-lg;
+        width: $full-width;
+        background-color: $grey;
+        margin-bottom: $spacing-lg;
+        padding-left: $spacing-lg ;
+    }
+
+    .main__informacion h1 , p{
+        color: $black;
+    }
+
+    .informacion__jumbotron{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;        
+        color: $black;
+        padding-bottom: $spacing*5;
+        align-items: center;
+        padding-top: $spacing-lg;
+        
+
+    }
+
+       .jumbotron__titulo{
+        font-size: $f-title2;
+        color: $black;
+        
+    }
+
+    .jumbotron__texto{
+        font-size: $f-medium;
+        width: 80%;
+    }
+
+    .jumbotron__button{
+        display: flex;
+        justify-content: center;
+        background-color: $blue-light;
+        width: auto;
+        padding: $spacing-sm;
+        height: auto;
+        color: white;
+        border-radius: $spacing;
+        align-items: center;
+    }
+
+    img{
+            height: 100%;
+            width: 100%;
+    }
+
+    .main__section4{
+        border: $border1;
+        background-color: $grey;
+        margin-bottom: $spacing-lg;
+        padding-left: $spacing-lg ;
+        height: $spacing-lg*8;
+
+        
+    }
+    .container__footer{
+        width: $full-width;
+        display: flex;                     
+        align-items: flex-end;        
+        background-color: $blue-dark;        
+        justify-content: flex-start;
+        padding-left: $spacing-lg*2.5;   
+        padding-top: $spacing-lg*2.5;  
+        padding-bottom: $spacing-lg*2; 
+        border-top: $spacing-sm solid $blue-light; 
+
+            p{  
+                display: flex;
+                color: $white;        
+                padding-left: $spacing-lg;                
+            }
+    
+        }
+
+
+      
+        .info__nombre{
+            display: flex;
+            align-items: center;               
+        }
+
+        .info__texto{
+            width: 50%;
+        }
+
+        .footer__info{
+            display: flex;          
+            
+        }
+
+    .redesSociales__logos{
+        width: 100%;        
+        align-items: flex-end;
+        padding-top: $spacing;
+               
+
+    }  
+
+/* Inicio seccion técnicas */
+
+    .main__tecnicas1{
+        
+        width: $full-width;
+        height: auto;        
+        color: $black; 
+    } 
+    
+    .tecnicas1__segundoTitulo{
+        font-size: $f-title/2;
+        display: flex;
+        justify-content: center;
+        color: $blue-dark;          
+        width: 100%;
+        padding-bottom: $spacing-lg;
+    }
+    
+    .tecnicas1__lista1 li{    
+        display: flex;
+        justify-content: center;
+        list-style: none;        
+        font-size: $f-medium;
+        font-family: $f-family1;
+        padding: $spacing-sm;            
+        color: $black;      
+        
+    }
+
+    .tecnicas1__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: $full-width;
+        padding-bottom: $spacing-lg*2;
+        background-color: $grey;
+    }
+
+    .tecnicas1__table {
+        display: flex;
+        justify-content: center;       
+        width: $full-width;
+    }
+    .tecnicas1__table th, td{
+        color: $black;   
+        display: table-cell;
+        border: $spacing-sm/2 $grey solid; 
+        text-align: start;
+        padding: $spacing-sm;
+            
+    }
+
+    .tecnicas1__table td, .table th {
+        padding: 0;
+        vertical-align: top; 
+        border-top: 1px solid $grey;
+        text-align: start;
+           
+    }
+
+    
+    .tecnicas1__table td{
+        height: auto;
+        padding: $spacing-sm;
+
+    }
+
+    .tecnicas2__videos{
+        width: $full-width;
+        background-color: $grey;
+        
+    }
+
+    .tecnicas2__videos ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;   
+        justify-content: space-between;     
+    }
+
+    .tecnicas2__videos iframe {
+        width: 20vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+    #demo{
+        color: $black;
+    }
+
+
+
+
+/* Fin seccion técnicas */
+
+/* Inicio seccion ubicacion */
+.main__container {    
+    border: $border1;    
+    background-color: $grey;
+    
+}
+
+.item {
+    min-height: 13em!important;
+    min-width: 7em !important;
+
+}
+
+.container__button{
+    display: flex;
+    justify-content: center;
+    width: 8%;
+    background-color: $blue-light;
+    font-size: $f-large;
+    margin-left:$spacing-lg*2.5;
+    margin-top: $spacing-lg;
+    margin-bottom: $spacing-lg;
+    color: $white;
+    
+    
+}
+
+.dropdown-menu.show{
+    width: 100%;
+}
+.collapse{ 
+    width: 10%;
+    margin-left: $spacing-lg;
+    margin-top: $spacing-sm;
+    margin-bottom: $spacing-lg;
+    background-color: $grey;
+
+}
+
+
+.container__mapa{
+  display: flex;
+  justify-content: space-around;
+  padding-top: $spacing-lg*2;
+  
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: $full-width/2;
+    min-width: 70%;
+    border: $blue-dark 3px solid;
+    background-color: $grey;
+    padding: $spacing-lg;
+}
+
+
+/* Fin seccion ubicacion */
+
+/* inicio seccion Nosotros */
+
+.main__galeria{
+    width: $full-width;
+    background-color: $grey;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;    
+    height: auto;
+    border-radius: $spacing-sm;
+}
+
+.main__containerNosotros{
+    width: $full-width/2;
+    grid-column-gap: $spacing;
+    grid-row-gap: $spacing;
+    padding: $spacing*2.5;
+    height: auto;
+    border: none;
+    background-color: $grey;  
+    display: grid;
+    grid-template-areas: "item1 item2 item2 item3"
+                         "item4 item4 item5 item6"
+                         "item7 item4 item8 item8"
+                         "item9 item10 item10 item11";
+}
+
+.item{    
+    min-height: 150px;
+    min-width: 100px;  
+    filter: grayscale(1);
+    border-radius: $spacing;    
+    align-content: center;    
+}
+.item:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    filter: none;
+
+}
+
+ #item1{     
+     background-image: url("../Imagenes/grids/1.jpg");
+     background-size: cover; 
+     grid-column-start: 1;
+     grid-column-end: 2; 
+     justify-content: stretch;
+     justify-content: stretch;
+     background-position: center;     
+      
+ }
+
+ #item2{
+     background-image: url("../Imagenes/grids/2.jpg");
+     grid-column-start: 2;
+     grid-column-end: 4;    
+     background-size: cover;
+     justify-content: stretch;
+    background-position: center;
+ }
+
+ #item3{background-image: url("../Imagenes/grids/3.jpg");
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    justify-content: stretch;
+    background-position: center;
+
+ }
+
+ #item4{background-image: url("../Imagenes/grids/4.jpg");
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-content: stretch;
+    background-position: center;
+
+}
+ 
+ #item5{background-image: url("../Imagenes/grids/5.jpg");
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-content: stretch;
+    background-position: center;
+}
+
+ #item6{background-image: url("../Imagenes/grids/11.jpg");
+    background-size: cover;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-content: center;
+    justify-content: stretch;
+    background-position: center;
+    
+}
+
+#item7{background-image: url("../Imagenes/grids/7.jpg");
+    background-size: cover;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: stretch;
+    background-position: center;
+}
+
+ #item8{background-image: url("../Imagenes/grids/8.jpg");
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-size: cover;
+    justify-content: stretch;
+    background-position: center;
+ } 
+
+ #item9{
+    background-image: url("../Imagenes/grids/6.jpg");
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-size: cover;
+    justify-content: stretch;
+    background-position: center;
+ }
+
+ #item10{
+    background-image: url("../Imagenes/grids/10.jpg");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-size: cover;
+    justify-content: stretch;
+    background-position: center;
+ }
+
+ #item11{
+    background-image: url("../Imagenes/grids/9.jpg");
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-size: cover;
+    justify-content: stretch;
+    background-position: center;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+ .main__containerNosotros2{
+     width: $full-width;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+    
+ }
+
+ .main__containerNosotros2{
+     background-color: $grey;     
+ }
+
+ .containerNosotros2__info{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;    
+    width: 80%;
+    height: auto;
+    font-size: $f-large;
+    font-family: $f-family3;
+    padding-bottom: $spacing-lg; 
+    color: $black;
+         
+ }
+
+ .informacion:hover{
+    transition: all 0.3s ease 0s;   
+    transform: scale(1.1);
+   
+ }
+
+ .containerNosotros2__info h2{
+    
+    font-style: italic;
+    padding-bottom: $spacing;
+    padding-top: $spacing;
+    font-size: $f-large;
+    text-align: center;
+    margin-top: $spacing-lg;
+    color: $black;
+        
+ }
+
+ .containerNosotros2__info p {    
+    text-align: center;
+    padding-bottom: $spacing-lg; 
+   
+    
+ }
+
+ .informacion{
+    background-color: $blue-text;
+    border-radius: $spacing; 
+    margin: $spacing-lg;
+ }
+
+/* Fin seccion Nosotros */
+
+
+/* Inicio seccion Contacto*/
+
+.main__containerContacto{
+    
+    width: $full-width;
+    margin: auto;
+    background-color: $grey;
+    opacity: 100%;
+
+}
+
+.containerContacto_info{
+    height: auto;
+    width: auto;  
+
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerContacto__formulario{
+    display: flex;
+    flex-direction: row;      
+    
+}
+
+.formulario__itemContacto1 {    
+    display: flex;  
+    padding: $spacing-lg;
+    padding-right: 0em;
+         
+} 
+.formulario__itemContacto3 {
+    display: flex;
+    flex-direction: row;
+    width: $full-width;
+    height: $spacing-lg;
+    margin: $spacing;
+    align-items: center;
+    color: $black;
+    justify-content: space-around;
+}
+
+.formulario__itemContacto4{
+    margin-top: $spacing-lg;
+    width: auto;
+}
+
+
+
+.formulario__cajaContacto{
+    display: flex;
+    padding-bottom: $spacing;
+    color: $black;
+    align-items: baseline;
+    width: auto;
+    margin: 1em;
+    font-size: $f-medium;
+}
+
+.formulario__cajaContacto2{
+    display: flex;
+    color: $black;
+}
+
+.dropdown-toggle {
+    font-size: $f-large;
+    width: 15vw;
+}
+
+.formulario__cajaContacto text{
+    font-size: medium;
+}
+.formulario__cajaContacto3{
+    display: flex;
+    flex-direction: row;
+    width: $full-width/2;
+    height: $spacing-lg*2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input.formulario__itemContacto1 {
+    width: $spacing-lg*5;
+    height: $f-small;    
+    padding: $f-small;   
+
+}
+
+.containerContacto2 input, textarea , select , option{   
+    margin-left: $spacing-sm;;
+    margin-right: $spacing-sm;
+    color: $black;
+    width: $spacing*10;
+    
+} 
+
+.dropdown-menu.show{    
+    width: $full-width;
+    color: $black;
+
+}
+
+.containerContacto__form fieldset {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: $spacing;
+    margin: $spacing;
+    color: $black;
+      
+    
+}
+
+
+/* Fin seccion Contacto */
+    
+/* Inicio seccion Productos*/
+
+.main__sectionProductos{
+    background-color: $grey;    
+    
+}
+
+
+.main__sectionProductos img{
+    width: $full-width;
+    height: auto;
+    border-radius: $spacing*3;
+    margin: $spacing-lg;
+}
+
+.lista__miembroSuperior{
+    display: flex;     
+    justify-content: space-around;   
+    align-items: center;
+    background-color: $white;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+ 
+.lista__miembroSuperior li img{
+    width: 15vw;
+    height: auto;
+}
+
+.lista__bandas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $white;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.lista__bandas li img{
+    width: 15vw;
+    height: auto;
+}
+
+.lista__inflables {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:$white;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.lista__inflables li img{
+    width: 15vw;
+    height: auto;
+}
+
+.lista__rodillos{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:$white;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.lista__rodillos li img{
+    width: 15vw;
+    height: auto;
+    padding: $spacing;
+}
+
+/* Fin seccion Productos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 10255eaa75ca2aed0efb1b127ac1ba29e362b206
 }
