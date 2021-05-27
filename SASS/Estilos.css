@@ -329,30 +329,48 @@
 }
 
 .main .container__footer {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding-left: 10em;
-  padding-right: 5em;
+  background-color: #170080;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 4vw;
+  border-top: 0.4vw solid #1d83e9;
 }
 
 .main .container__footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: whitesmoke;
+  padding-left: 6vw;
+}
+
+.main .info__nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .info__texto {
+  width: 60%;
 }
 
 .main .footer__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
 }
 
 .main .redesSociales__logos {
@@ -367,36 +385,6 @@
       -ms-flex-align: end;
           align-items: flex-end;
   padding-top: 1vw;
-  width: 1em;
-}
-
-.main .redesSociales__logos ul {
-  list-style: none;
-}
-
-.main .redesSociales__logos li {
-  height: 60%;
-}
-
-.main .redesSociales__logos .main .footer__redesSociales a {
-  color: black;
-}
-
-.main .linksRedes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 10vw;
-}
-
-.main .linksRedes li {
-  width: 6vw;
-  font-size: 1vw;
-  height: 1vw;
 }
 
 .main .footer__redesSociales {
@@ -407,20 +395,21 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: black;
+  color: whitesmoke;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-left: 6vw;
 }
 
 .main .footer__redesSociales li {
   height: 1vw;
   font-size: 0.875vw;
   list-style: none;
-  color: black;
+  color: whitesmoke;
   padding: 1vw;
 }
 
