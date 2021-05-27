@@ -1,7 +1,7 @@
 
 
 .main {        
-    font-size: $f-medium;
+    
     font-family: $f-family3;
     width: $full-width;   
 
@@ -23,16 +23,14 @@
         font-family: $f-family2;
         color: $blue-dark;
         font-size: $f-title;        
-        border-top: $border1;
-        border-right: none;
-        border-bottom: $border1;
-        border-left: none;
+        border: $border1;
         text-transform: uppercase;
         align-items: center;        
     }  
 
     .row{
         margin: 0;
+        padding-bottom: $spacing-lg ;
     }
 
     
@@ -44,14 +42,7 @@
 
     }
 
-    .row{
-    padding-top: 5em;    
-    display: flex;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: center;
-    }
+    
 
     .main .col-sm-4{
         display: flex;
@@ -84,15 +75,18 @@
 
     .informacion__jumbotron{
         height: auto;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;        
         color: $black;
-        padding-bottom: $spacing;
+        padding-bottom: $spacing*5;
+        align-items: center;
+        padding-top: $spacing-lg;
+        
 
     }
 
-    .jumbotron__titulo{
+       .jumbotron__titulo{
         font-size: $f-title2;
         color: $black;
         
@@ -100,16 +94,19 @@
 
     .jumbotron__texto{
         font-size: $f-medium;
+        width: 80%;
     }
 
     .jumbotron__button{
         display: flex;
         justify-content: center;
         background-color: $blue-light;
-        width: 8vw;
+        width: auto;
+        padding: $spacing-sm;
         height: auto;
+        color: white;
         border-radius: $spacing;
-        margin-bottom: $spacing;
+        align-items: center;
     }
 
     img{
@@ -118,10 +115,7 @@
     }
 
     .main__section4{
-        border-top: $border1;
-        border-right: none;
-        border-bottom: $border1;
-        border-left: none;
+        border: $border1;
         background-color: $grey;
         margin-bottom: $spacing-lg;
         padding-left: $spacing-lg ;
@@ -129,48 +123,50 @@
 
         
     }
-
-    
     .container__footer{
-        display: flex;
         width: $full-width;
-        justify-content: space-around;       
-        align-items: center;
-        padding-left: 6em;       
-        background-color: $white;
+        display: flex;                     
+        align-items: flex-end;        
+        background-color: $blue-dark;        
+        justify-content: flex-start;
+        padding-left: $spacing-lg*2.5;   
+        padding-top: $spacing-lg*2.5;  
+        padding-bottom: $spacing-lg*2; 
+        border-top: $spacing-sm solid $blue-light; 
 
-            p{
+            p{  
                 display: flex;
-                padding: $spacing-lg;
-                      
-
+                color: $white;        
+                padding-left: $spacing-lg;                
             }
-            
-            .footer__info{
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;              
-            }
-
-            .info__nombre{                              
-                height: 100%;
-            }
-
-            .info__texto{
-                width: 60%;
-            } 
-        
-        .redesSociales__logos li{
-            color:$white;
+    
         }
 
-    }               
 
+      
+        .info__nombre{
+            display: flex;
+            align-items: center;               
+        }
 
-   
-   
-    
-    /* Inicio seccion técnicas */
+        .info__texto{
+            width: 50%;
+        }
+
+        .footer__info{
+            display: flex;          
+            
+        }
+
+    .redesSociales__logos{
+        width: 100%;        
+        align-items: flex-end;
+        padding-top: $spacing;
+               
+
+    }  
+
+/* Inicio seccion técnicas */
 
     .main__tecnicas1{
         
@@ -271,12 +267,8 @@
 
 /* Inicio seccion ubicacion */
 .main__container {    
-    border-top: $border1;
-    border-right: none;
-    border-bottom: $border1;
-    border-left: none;  
+    border: $border1;    
     background-color: $grey;
-    margin-bottom: $spacing-lg*2;
     
 }
 
@@ -765,4 +757,4 @@ input.formulario__itemContacto1 {
 
 
 
-}   
+}
