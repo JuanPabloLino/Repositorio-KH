@@ -24,6 +24,23 @@
       justify-content: flex-start;
     }
 
+    .nav-link {
+      background-color: whitesmoke;      
+      color: $black;
+    }
+
+    .dropdown-toggle{
+      color: $black;
+    }
+
+    .navbar li.nav-item.dropdown{
+      background-color: $white;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+      color: $black;
+    }
+
     .btn-outline-success{
       color: $blue-dark;
       border-color: $blue-dark;
