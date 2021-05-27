@@ -79,7 +79,7 @@
     }
 
     .main__informacion h1 , p{
-        color: $black;
+        color: $blue-text;
     }
 
     .informacion__jumbotron{
@@ -158,7 +158,11 @@
 
             .info__texto{
                 width: 60%;
-            }          
+            } 
+            
+        .redesSociales__logos li {
+            color: $white;
+        }    
 
     }               
 
