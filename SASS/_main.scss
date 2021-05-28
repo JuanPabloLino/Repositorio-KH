@@ -269,13 +269,8 @@
 .main__container {    
     border: $border1;    
     background-color: $grey;
+    padding-bottom: $spacing-lg*5;
     
-}
-
-.item {
-    min-height: 13em!important;
-    min-width: 7em !important;
-
 }
 
 .container__button{
